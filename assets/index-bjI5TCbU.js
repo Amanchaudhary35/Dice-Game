@@ -64,7 +64,7 @@ Error generating stack: `+o.message+`
  color: white;
     border: 1px solid transparent;
   }
- `,$m=({toggle:e})=>R.jsxs(Lm,{children:[R.jsx("div",{children:R.jsx("img",{src:"/images/dices.png",alt:""})}),R.jsxs("div",{className:"content",children:[R.jsx("h1",{children:"DICE GAME"}),R.jsx(Yu,{onClick:e,children:"Play Now"})]})]}),Lm=qe.div`
+ `,$m=({toggle:e})=>R.jsxs(Lm,{children:[R.jsx("div",{children:R.jsx("img",{src:"../images/dice_1.png",alt:""})}),R.jsxs("div",{className:"content",children:[R.jsx("h1",{children:"DICE GAME"}),R.jsx(Yu,{onClick:e,children:"Play Now"})]})]}),Lm=qe.div`
   max-width: 1180px;
   display: flex;
   height: 100vh;
@@ -114,7 +114,7 @@ Error generating stack: `+o.message+`
   font-weight: 700;
   background-color: ${e=>e.isSelected?"black":"white"};
   color: ${e=>e.isSelected?"white":"black"};
-`,Fm=({currentDice:e,rollDice:t})=>R.jsxs(Am,{children:[R.jsx("div",{className:"dice",onClick:t,children:R.jsx("img",{src:`/images/dice_${e}.png`,alt:"dice_1"})}),R.jsx("p",{children:"Click on Dice to roll"})]}),Am=qe.div`
+`,Fm=({currentDice:e,rollDice:t})=>R.jsxs(Am,{children:[R.jsx("div",{className:"dice",onClick:t,children:R.jsx("img",{src:`./images/dice_${e}.png`,alt:"dice_1"})}),R.jsx("p",{children:"Click on Dice to roll"})]}),Am=qe.div`
   margin-top: 48px;
   display: flex;
   flex-direction: column;
